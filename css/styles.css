@@ -1,0 +1,54 @@
+/*** TAG selector***/
+body {
+    background-color: #F8F4EA;
+  }
+
+  hr { 
+
+     border-style: none;
+     border-top-style: dotted;
+     border-color: #E1D7C6;
+     border-width: 7px;
+     height: 0px;
+     width: 5%
+  }
+
+  h1{
+    color: #579BB1;
+  }
+
+  h3{
+    color:#579BB1;
+  }
+  img:hover{
+    background-color: #84D2C5;
+  }
+
+
+  /***class selector***/
+  /* folosit pt un grup de elemente care vrei sa aiba acelasi stil
+  
+  pot exista mai multi class selector cu acelasi nume
+  un class selector poate fi alcatuit din ma multi class selectori*/
+
+  .girl{
+    background-color: #E1D7C6;
+  }
+  .wave{
+    background-color: #ECE8DD;
+  }
+
+  .circular{
+    border-radius: 100%;
+  }
+
+  /***ID selector***/   /* este mai specific deci are mai multa prioritate*/
+  /* folosit pt a identifica elemente, unde este doar unul singur pe o 
+  anumita pagina cum ar fi "hello my name is ioana"
+  
+  nu pot fi mai multi id selector cu acelasi nume pe o pagina
+  un id selector nu poate fi alcatuit din mai multi id selectori*/
+
+  #heading{
+    color:#86A3B8;
+}
