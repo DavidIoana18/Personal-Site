@@ -1,80 +1,60 @@
-<!DOCTYPE html>
 <html>
-   <head>
-     <meta charset="UTF-8">
-     <title>Ioana's Personal Site</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Ioana David</title>
+        <link rel="stylesheet"  href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
 
-  <link rel="stylesheet" href="css/styles.css">
+    <body>
+        <div class="top-container">  <!-- we have to use css to make the div work-->
+           <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+           <h1> I'm Ioana</h1>
+           <h2>a <span class="pro"> pro</span>grammer</h2>  <!-- SPANS and IMGs are an inline display element-->
+           <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">    <!-- paragrahps are blocked elements-->
+           <img src="images/mountain.png" alt="mountain-img">   <!-- images are inline-block elements-->
+        </div>
 
-  <body>
-    <table cellspacing="10">
-        <tr>
-            <td> <img class="girl" src="https://em-content.zobj.net/thumbs/120/apple/325/girl_medium-skin-tone_1f467-1f3fd_1f3fd.png"></td>
-            <td><h1 id="heading"> Hello, my name is Ioana👋</h1>
-                <p> I am a student at the <strong><a href="http://www.upt.ro/" >Polytechnic University of Timisoara</a></strong>.</p>
-                <p> I am in the 3rd year and I decided to learn to create web and mobile applications.</p>
-            </td>  
-        </tr>
-
-    </table>
-    
-     <hr>
-     
-
-<a href="contactMe.html"> <h3>Contact me</h3></a>
-     <hr> 
-
-     <h3>Work experience</h3>
-     <table>
-        <thead>
-            <th>Dates</th>
-            <th>Work</th>
-        </thead>
-
-        <tbody>
-            <tr>    <!-- table row -->
-                <td>2020 – CURRENT</td>   <!-- table data what contains a cell-->
-                <td>Faculty of Automation and Computers Science</td>
-              </tr>
-              <tr>
-                  <td>2016 - 2020</td>
-                  <td>High school diploma</td>
-              </tr>
-        </tbody>
-
-     </table>
-<hr>
-     <h3>Skills</h3>
-
-     <table cellspacing="10">
-        <tr>
-            <td>Web Development 
-            <td>⭐⭐</td> 
-        </tr>
+        <div class="middle-container">
+            <div class="profile">
+              <img src="images/woman.png" alt="me-img">
+              <h2>Hello.</h2>
+              <p class="intro">I am a student at the Polytechnic University of Timisoara. I love animals, especially dogs.🐶</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="design-img" src="images/web-design.png" alt="web design-img">
+                <h3>Photography & Design</h3>
+                <p>I like to photograph nature in its various stages. I have some experience in design, but I am determined to gain a wealth of experience to be able to make my own web and mobile applications.</p>
+              </div>
+              <div class="skill-row">
+                <img class="paint-img" src="images/paint-palette.png" alt="paint-img">
+                <h3>Painting</h3>
+                <p>I like to paint by numbers. I often paint when I want to relax.</p>
+               
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>If you love dogs as much as I do.</h3>
+              <p class="contact-message">Love dogs as much as I do? Let's talk about how awesome they are and  We can code while we do this!</p>
+              <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+            </div>
+          </div>
+          
+          
+          <div class="bottom-container">
+            <a class="footer-link" href="https://www.facebook.com/ioana.david.75/">Facebook</a>
+            <a class="footer-link" href="https://github.com/DavidIoana18">Github</a>
+            <a class="footer-link" href="https://www.linkedin.com/in/ioana-david-981390254/">Linkedin</a>
+            <p class="copyright"> © 2023 David Ioana </p>
+          </div>
        
-        <tr>
-           <td>IOs Development</td>
-           <td>⭐</td>
-        </tr>
-
-        <tr>
-            <td>Photography</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-
-        <tr>
-           <td>Painting</td>
-           <td>⭐⭐⭐⭐</td>
-       </tr>
-     </table>
-
-     <hr> 
- 
-     <a href="thingsToLearn.html"> <h3> What will I learn form this course? </h3></a>
-
- <img class="wave circular" src="https://em-content.zobj.net/thumbs/120/softbank/145/waving-hand-sign_1f44b.png">
-
-  </body>
-
+    </body>
 </html>
